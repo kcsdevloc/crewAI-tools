@@ -4,7 +4,7 @@ from pathlib import Path
 from unittest.mock import ANY, MagicMock
 
 import pytest
-from embedchain.models.data_type import DataType
+from crewai_tools.rag.data_types import DataType
 
 from crewai_tools.tools import (
     CodeDocsSearchTool,
